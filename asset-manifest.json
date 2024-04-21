@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/SSV_portfolio/static/css/main.0a800cdd.css",
-    "main.js": "/SSV_portfolio/static/js/main.b1f14634.js",
+    "main.css": "/SSV_portfolio/static/css/main.eb692255.css",
+    "main.js": "/SSV_portfolio/static/js/main.e5f82f8c.js",
     "static/js/453.0c8cfebb.chunk.js": "/SSV_portfolio/static/js/453.0c8cfebb.chunk.js",
     "static/media/globe.gif": "/SSV_portfolio/static/media/globe.eb1641157bffd7912522.gif",
     "static/media/calculator.jpg": "/SSV_portfolio/static/media/calculator.d7ce59accb4b951bca21.jpg",
+    "static/media/java_hr.jpg": "/SSV_portfolio/static/media/java_hr.6790182bcc73738c8b2b.jpg",
+    "static/media/problem_solving.jpg": "/SSV_portfolio/static/media/problem_solving.b3ab5e1035342d81072d.jpg",
     "static/media/python.png": "/SSV_portfolio/static/media/python.c51d40980f76d37e747d.png",
     "static/media/tic-tac-toe.png": "/SSV_portfolio/static/media/tic-tac-toe.0824b4b05e00650b31f9.png",
+    "static/media/C_nptel.jpg": "/SSV_portfolio/static/media/C_nptel.c3b4b56fdb64fd3051bc.jpg",
     "static/media/Dp.jpg": "/SSV_portfolio/static/media/Dp.e009e20283b6f0460b5a.jpg",
     "static/media/c.png": "/SSV_portfolio/static/media/c.bc3617864443cb4b2f9f.png",
     "static/media/node.png": "/SSV_portfolio/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/java.png": "/SSV_portfolio/static/media/java.fc241426afd8f52a312e.png",
+    "static/media/gen_ai.jpg": "/SSV_portfolio/static/media/gen_ai.182025a167fe152fa5f6.jpg",
     "static/media/html.png": "/SSV_portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/chatbot.png": "/SSV_portfolio/static/media/chatbot.3a4e583fce586d381f98.png",
     "static/media/css.png": "/SSV_portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/SSV_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/SSV_portfolio/index.html",
-    "main.0a800cdd.css.map": "/SSV_portfolio/static/css/main.0a800cdd.css.map",
-    "main.b1f14634.js.map": "/SSV_portfolio/static/js/main.b1f14634.js.map",
+    "main.eb692255.css.map": "/SSV_portfolio/static/css/main.eb692255.css.map",
+    "main.e5f82f8c.js.map": "/SSV_portfolio/static/js/main.e5f82f8c.js.map",
     "453.0c8cfebb.chunk.js.map": "/SSV_portfolio/static/js/453.0c8cfebb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a800cdd.css",
-    "static/js/main.b1f14634.js"
+    "static/css/main.eb692255.css",
+    "static/js/main.e5f82f8c.js"
   ]
 }
