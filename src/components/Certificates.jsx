@@ -16,7 +16,7 @@ const Certificates = () =>{
         {
             id:1,
             src:c,
-            title:'Intoduction to Programming in c',
+            title:'Intro.. to c',
             issued:"https://nptel.ac.in/noc/E_Certificate/NPTEL23CS02S4440018203121906",
         },
         {
@@ -70,7 +70,7 @@ const Certificates = () =>{
                 </div> 
             </div> 
             <div className='flex items-center justify-end absolute bottom-0 right-0 w-full bg-gradient-to-t from-green-600 to-transparent rounded-lg'> 
-                <button className='px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900'> 
+                <button className='px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'> 
                     <a target='_blank' href={issued}>View</a> </button> 
             </div>
         </div>
