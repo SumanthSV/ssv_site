@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SSV_portfolio/static/css/main.c3d46797.css",
-    "main.js": "/SSV_portfolio/static/js/main.4cc778c7.js",
+    "main.js": "/SSV_portfolio/static/js/main.22e8e981.js",
     "static/js/453.0c8cfebb.chunk.js": "/SSV_portfolio/static/js/453.0c8cfebb.chunk.js",
     "static/media/globe.gif": "/SSV_portfolio/static/media/globe.eb1641157bffd7912522.gif",
     "static/media/calculator.jpg": "/SSV_portfolio/static/media/calculator.d7ce59accb4b951bca21.jpg",
@@ -21,11 +21,11 @@
     "static/media/javascript.png": "/SSV_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/SSV_portfolio/index.html",
     "main.c3d46797.css.map": "/SSV_portfolio/static/css/main.c3d46797.css.map",
-    "main.4cc778c7.js.map": "/SSV_portfolio/static/js/main.4cc778c7.js.map",
+    "main.22e8e981.js.map": "/SSV_portfolio/static/js/main.22e8e981.js.map",
     "453.0c8cfebb.chunk.js.map": "/SSV_portfolio/static/js/453.0c8cfebb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3d46797.css",
-    "static/js/main.4cc778c7.js"
+    "static/js/main.22e8e981.js"
   ]
 }
