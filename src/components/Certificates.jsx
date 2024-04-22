@@ -40,26 +40,28 @@ const Certificates = () =>{
     ]
 
     return (
-        <div name="certificates" className='h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white'>
-      <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-        <div className='pb-8'>
-          <h2 className='text-4xl font-bold inline border-b-4 border-gray-400 '>Certificates</h2>
-          <p className='py-6'> I am certified in following programming languages  and technologies.</p>
-        </div>
-        <div   className='grid sm:grid-cols-2 md:grid-cols-2 mb-20 gap-16 px-12 sm:px-0 '>
-          {
-            Cert().map(({ id, src, title, issued}) => (
+      //   <div name="certificates" className='h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white'>
+      // <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+      //   <div className='pb-8'>
+      //     <h2 className='text-4xl font-bold inline border-b-4 border-gray-400 '>Certificates</h2>
+      //     <p className='py-6'> I am certified in following programming languages  and technologies.</p>
+      //   </div>
+      //   <div   className='grid sm:grid-cols-2 md:grid-cols-2 mb-20 gap-16 px-12 sm:px-0 '>
+      //     {
+      //       Cert().map(({ id, src, title, issued}) => (
 
-              <div data-aos="fade-in" data-aos-duration="15000" key={id} className='shadow-md shadow-green-600 rounded-lg'>
-                <img src={src} alt="Loading" className='rounded-md duration-200 hover:scale-105' />
-                <p className='p-2 text-justify font-extralight md:text-center'>{title}</p>
-                <div className='flex items-center justify-center'>
+      //         <div data-aos="fade-in" data-aos-duration="15000" key={id} className='shadow-md shadow-green-600 rounded-lg'>
+      //           <img src={src} alt="Loading" className='rounded-md duration-200 hover:scale-105' />
+      //           <p className='p-2 text-justify font-extralight md:text-center'>{title}</p>
+      //           <div className='flex items-center justify-center'>
                   
-                  <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105  bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
-                    <a target='_blank' href={issued}>View</a>
-                  </button>
-                </div>
-              </div>
+      //             <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105  bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
+      //               <a target='_blank' href={issued}>View</a>
+      //             </button>
+      //           </div>
+      //         </div>
+
+        <div data-aos="fade-in" data-aos-duration="15000" key={id} className=''> <div className='relative overflow-hidden'> <img src={src} alt="Loading" className='rounded-md duration-200 hover:scale-105 w-full' /> <div className='absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-green-950 to-green-20 opacity-90 '></div> <div className=' absolute bottom-5 left-0 w-full p-8 text-darkWhite'> <p className='text-left text-xl'>{title}</p> </div> </div> <div className='flex items-center justify-end absolute bottom-0 right-0 w-full bg-gradient-to-t from-green-600 to-transparent'> <button className='px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900'> <a target='_blank' href={issued}>View</a> </button> </div> </div>
 
             ))
           }
